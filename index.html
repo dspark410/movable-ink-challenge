@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="">
+  <head>
+    <title>Movable Ink</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
 
-<head>
-  <title>Movable Ink</title>
-  <meta charset="UTF-8" />
-</head>
+  <body>
+    <div id="app">
+      <form id="search-form" class="form">
+        <input type="text" id="search-input" placeholder="Zip Code" />
+        <input type="date" id="date-input" />
+      </form>
 
-<body>
-  <div id="app"></div>
-</body>
-<script src="src/app.js"></script>
-
+      <div id="weather-header"></div>
+      <div id="weather-cards" class="weather-card-container"></div>
+    </div>
+  </body>
+  <script src="src/app.js"></script>
 </html>

@@ -1,0 +1,17 @@
+.weather-header {
+  color: #7b7b7b;
+}
+
+.day {
+  color: #fff;
+  background-color: #6b9cbd;
+}
+
+.weather-card-container {
+  display: flex;
+  align-items: center;
+}
+
+.weather-cards {
+  margin: 0.5rem 1rem;
+}
